@@ -86,5 +86,5 @@ El proyecto utiliza el dataset "Red Wine Quality" de UCI Machine Learning Reposi
 ## Autor
 
 Andrés
-Universidad Tecnológica de Panamá
+Universidad Tecnológica de Pereira
 # Proyecto-Final-Aprendizaje-de-Maquina-2025
