@@ -64,7 +64,7 @@ if analysis_mode == "Explorador de Datos":
     """)
     
     # Mostrar todos los datos con tabla scrollable
-    st.dataframe(df, height=600, use_container_width=True)
+    st.dataframe(df, height=600, width='stretch')
     
     st.subheader("Matriz de Correlación")
     corr = df.corr()
