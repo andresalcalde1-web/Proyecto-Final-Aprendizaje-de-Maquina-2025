@@ -1,0 +1,62 @@
+# INSTRUCCIONES DE INSTALACIÓN Y EJECUCIÓN
+
+## Método 1: Scripts Automáticos (Windows)
+
+### Instalación:
+1. Hacer doble clic en `setup.bat`
+2. Esperar a que termine (puede tomar 1-2 minutos)
+3. **IMPORTANTE**: Cerrar y reabrir la ventana de comandos
+
+### Ejecución:
+1. Hacer doble clic en `run.bat`
+2. Esperar a que aparezca el mensaje "You can now view your Streamlit app..."
+3. Se abrirá automáticamente en el navegador
+
+## Método 2: Manual (Todas las plataformas)
+
+### 1. Instalación:
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Ejecución:
+```bash
+streamlit run app.py
+```
+
+### 3. Abrir en navegador:
+- Automáticamente se abrirá, o
+- Visitar manualmente: http://localhost:8501
+
+## Solución de Problemas
+
+### Problema: "streamlit no se reconoce como comando"
+
+**Solución A - Reiniciar terminal:**
+1. Cerrar TODAS las ventanas de CMD/PowerShell
+2. Abrir una nueva ventana
+3. Navegar a la carpeta del proyecto
+4. Ejecutar: `python -m streamlit run app.py`
+
+**Solución B - Usar Python directamente:**
+```bash
+python -m streamlit run app.py
+```
+
+### Problema: "ModuleNotFoundError"
+
+**Solución:**
+1. Verificar que las dependencias se instalaron: `pip list`
+2. Reinstalar: `pip install -r requirements.txt`
+
+### Problema: El navegador no se abre
+
+**Solución:**
+- Abrir manualmente el navegador
+- Ir a: http://localhost:8501
+
+## Requisitos del Sistema
+
+- Python 3.11 o superior
+- Conexión a internet (solo para la primera instalación)
+- Navegador web moderno (Chrome, Firefox, Edge)
